@@ -1,0 +1,91 @@
+#wrapper {
+	margin-left: 200px;
+}
+.crystalImage {
+	height: 120px;
+	margin-left: 10px
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	width: 620px;
+	margin-left: 0px;
+}
+body {
+	background-color: #99ffff;
+	font-family: 'Indie Flower', cursive;
+}
+h1 {
+	background-color: #ffb84d;
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px black;
+	width: 600px;
+	text-align: center;
+}
+#instructions {
+	background-color: #ffb3ff;
+	clear:both;
+	margin-top: 20px;
+	border: solid 1px black;
+	width: 620px;
+	height: 180px;
+	font-family: 'Indie Flower', cursive;
+}
+p {
+	font-size: 17px;
+	margin-left: 10px;
+}
+#crystals {
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	width: 620px;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Indie Flower', cursive;
+}
+
+#guessingNumber {
+	background-color: #99ff66;
+	padding: 10px;
+	margin-top: 10px;
+	border: solid 1px black;
+	width: 300px;
+	margin-left: 0px;
+	margin-right: 80px;
+	font-family: 'Indie Flower', cursive;
+}
+#scoreboard {
+	background-color: #03A9F4;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: solid 1px black;
+	width: 300px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#totalScore {
+	margin-bottom: 40px;
+	width: 620px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+#yourTotalScore {
+	width: 610px;
+	background: #ff3333;
+	padding: 30px;
+	border: solid 1px black;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
