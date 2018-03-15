@@ -10,16 +10,16 @@ $(document).ready(function() {
 
 
 	function newCrystals () {
-		var numbers = []
+		var numbers = [];
 			while(numbers.length < 4){
 			  var randomnumber = Math.ceil(Math.random() * 12)
-			  var found = false;
-			  for (var i=0; i< numbers.length; i++){
-				if (numbers[i] == randomnumber){
-					found = true; break
-				}
+			  var rightAmount = false;
+			  for (var i = 0; i < numbers.length; i++){
+				if (numbers[i] === randomnumber){
+					rightAmount = true;
+					}
 			  }
-			  if(!found)numbers[numbers.length] = randomnumber;
+			  if(!rightAmount)numbers[numbers.length] = randomnumber;
 			}
 		console.log(numbers);
 
@@ -27,7 +27,6 @@ $(document).ready(function() {
 			var imageCrystal = $('<img>');
 			imageCrystal.attr('data-num', numbers[i]);
 			imageCrystal.attr('src', crystals[i]);
-			imageCrystal.attr('alt', 'crystals');
 			imageCrystal.addClass('crystalImage')
 			$('#crystals').append(imageCrystal);
 		}
