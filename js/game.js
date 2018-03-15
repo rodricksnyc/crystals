@@ -8,8 +8,6 @@ $(document).ready(function() {
 	$('#win').text(wins);
 	$('#loss').text(losses);
 
-	newCrystals();
-	newGame();
 
 	function newCrystals () {
 		var numbers = []
@@ -34,6 +32,8 @@ $(document).ready(function() {
 			$('#crystals').append(imageCrystal);
 		}
 	}
+	newCrystals();
+	newGame();
 
 	function newGame() {
 
